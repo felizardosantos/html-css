@@ -17,6 +17,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
 
         caption {
@@ -32,8 +33,14 @@
         }
 
         thead {
-            background-color: gray;
+            background-color: rgb(56, 51, 51);;
             color: white;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(56, 51, 51);
         }
 
         tbody tr:nth-child(even) {
@@ -41,7 +48,7 @@
         }
 
         tfoot {
-            background-color: gray;
+            background-color: rgb(56, 51, 51);;
             color: white;
         }
 
@@ -136,6 +143,10 @@
             <tr>
                 <td>Piaui</td>
                 <td class="num">3 273 227</td>
+            </tr>
+            <tr>
+                <td>Rio</td>
+                <td class="num">23 445 555</td>
             </tr>
         </tbody>
         <tfoot>
